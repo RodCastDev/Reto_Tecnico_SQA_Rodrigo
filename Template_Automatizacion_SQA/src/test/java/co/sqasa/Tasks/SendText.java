@@ -17,6 +17,7 @@ public class SendText implements Task {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 Enter.theValue(textToSend).into(BasePage.FIELD_TEXT)
+
         );
     }
 

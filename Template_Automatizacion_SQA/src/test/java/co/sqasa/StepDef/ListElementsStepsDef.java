@@ -3,7 +3,7 @@ package co.sqasa.StepDef;
 import co.sqasa.Tasks.ClickList;
 import co.sqasa.Tasks.ClickTextEnrriquecido;
 import cucumber.api.java.Before;
-import cucumber.api.java.en.When;
+import cucumber.api.java.en.*;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import net.thucydides.core.annotations.Managed;
@@ -30,6 +30,18 @@ public class ListElementsStepsDef {
         theActorInTheSpotlight().attemptsTo(
                 ClickList.selectButtonList()
         );
+    }
+
+    @When("^agrego seis tareas$")
+    public void agregoSeisTareas() {
+        // Write code here that turns the phrase above into concrete actions
+        System.out.println("Hola5");
+    }
+
+    @Then("^elimino una de las tareas$")
+    public void eliminoUnaDeLasTareas() {
+        // Write code here that turns the phrase above into concrete actions
+        System.out.println("Hola6");
     }
 }
 

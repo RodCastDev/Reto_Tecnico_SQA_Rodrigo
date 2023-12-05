@@ -1,12 +1,16 @@
+co/sqasa/StepDef/ListElementsStepsDef.java
+ co.sqasa.StepDef.ListElementsStepsDef
 co/sqasa/ui/BasePage.java
  co.sqasa.ui.BasePage
+co/sqasa/StepDef/TestTextStepDef.java
+ co.sqasa.StepDef.TestTextStepDef
 co/sqasa/noteQuestions/ValidateText.java
  co.sqasa.noteQuestions.ValidateText
-co/sqasa/Tasks/SendText.java
- co.sqasa.Tasks.SendText
-co/sqasa/runners/testRunner.java
- co.sqasa.runners.testRunner
 co/sqasa/Tasks/ClickTextEnrriquecido.java
  co.sqasa.Tasks.ClickTextEnrriquecido
-co/sqasa/StepDef/TestStepDefinition.java
- co.sqasa.StepDef.TestStepDefinition
+co/sqasa/runners/testRunner.java
+ co.sqasa.runners.testRunner
+co/sqasa/Tasks/ClickList.java
+ co.sqasa.Tasks.ClickList
+co/sqasa/Tasks/SendText.java
+ co.sqasa.Tasks.SendText

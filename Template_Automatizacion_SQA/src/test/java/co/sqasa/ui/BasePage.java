@@ -9,4 +9,5 @@ public class BasePage extends PageObject {
     public static final Target BUTTON_ENRICHED = Target.the("Boton texto enrriquesido").located(By.id("richtextnote-tab"));
     public static final Target FIELD_TEXT = Target.the("Campo texto enrriquesido").located(By.id("editor"));
     public static final Target BUTTON_LIST_TASKS = Target.the("Boton lista de tareas").located(By.id("tasklist-tab"));
+    public static final Target BUTTON_ = Target.the("Boton lista de tareas").located(By.id("tasklist-tab"));
 }

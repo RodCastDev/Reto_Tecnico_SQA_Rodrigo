@@ -41,8 +41,8 @@ public class TestTextStepDef {
         );
     }
 
-    @When("^envío el texto {string}$")
-    public void envio_el_texto(String texto) {
+    @When("^envio el texto(.*)$")
+    public void envioElTextoHolaEsteEsUnTextoDePrueba(String texto) {
         theActorInTheSpotlight().attemptsTo(
                 SendText.textInput(texto)
         );
@@ -53,6 +53,4 @@ public class TestTextStepDef {
         theActorInTheSpotlight().should(
                 seeThat("Texto en el campo", ValidateText.textoInField(), equalTo("Hola este es un texto de prueba")));
     }
-
-
 }
